@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem auto;
+    width: 90%;
+
+    li {
+        padding: 1rem;
+        flex: 1;
+
+        button {
+            margin: 5px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+   
+}
+.editIcon{
+width: 15px;
+height: 15px;
+padding-left: 5px;
+}
+.editContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.completed {
+    background-color: green;
+    color: white;
+}
+.textInput {
+    border: none;
+}
+.textInput:focus {
+    outline: none; /* Remove the default outline */
+    border: none; /* Remove the border */
+  }
